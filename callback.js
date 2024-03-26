@@ -1,12 +1,12 @@
-// function calculate(num1,num2,num3,num4,callback) {
-//     let value = calculation (num1,num2,num3,num4)
-//     callback(value);
-// }
-// calculate(10,25,35,40)
+function calculate(num1,num2,num3,num4,callback) {
+    let value = calculation (num1,num2,num3,num4)
+    callback(value);
+}
+calculate(10,25,35,40)
 
-//function getPositiveNums(element){
-    //const newArr = [];
-    //for(let i = 0; i< arr.length; i++) {
+function getPositiveNums(element){
+    const newArr = [];
+    for(let i = 0; i< arr.length; i++) {
         if(element[i] >= 0 && !(element[i] % 2)) //{
             //newArr.push(arr[i]);
         //}
